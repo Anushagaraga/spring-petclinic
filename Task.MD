@@ -117,7 +117,7 @@ helm install ingress-nginx ingress-nginx/ingress-nginx
 ```
 ## Domain Mapping
 * my domain is being hosted from  cloudflare
-```http://k8s4life.site```
+```https://k8s4life.site```
 ## Prometheus & Grafana
 * Now install prometheus and grafan with helm 
 * Temporarily I'm using port-forwarding. we can use ingress manifest for static hosting.
