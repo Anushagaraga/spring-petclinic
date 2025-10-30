@@ -13,6 +13,6 @@
 
 
 FROM openjdk:17 
-ADD https://trial2rt5pi.jfrog.io/ui/native/jfrogjavaspc-libs-release/spring-petclinic-3.5.0-SNAPSHOT.jar  laxmikanth.jar 
+ADD https://trial4hgspr.jfrog.io/artifactory/jfrogjava-libs-release-local/ Anusha.jar 
 EXPOSE 8080
-CMD ["java", "-jar", "laxmikanth.jar"]
+CMD ["java", "-jar", "Anusha.jar"]
